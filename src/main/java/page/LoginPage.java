@@ -43,7 +43,7 @@ public class LoginPage extends TestBase {
 		driver.findElement(By.xpath("//input[@name='allbox']")).click();
 		
 		Assert.assertTrue(driver.findElement(By.xpath("//input[@type='checkbox']")).isSelected());
-		System.out.println("true!!"); 
+		System.out.println("true!"); 
 	
 //	public void login(String userName, String password) {
 //		UserName.sendKeys(userName);
